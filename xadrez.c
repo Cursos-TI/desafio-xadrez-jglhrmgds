@@ -16,6 +16,9 @@ int main() {
     {
         printf("Direita\n");
     }
+
+    printf("\n");
+
     // Movimento do bispo usando do-while
     printf("Movimento do bispo:\n");
     int b = 1;
@@ -26,6 +29,7 @@ int main() {
         b++;
     } while (b <= 5);
     
+    printf("\n");
     
     //Movimento da rainha usando while
     printf("Movimento da rainha:\n");
@@ -35,9 +39,22 @@ int main() {
         printf("esquerda\n");
         r++;
     }
-    
-   
 
+    printf("\n");
+
+   //Movimento do cavalo
+   printf("Movimento do cavalo:\n");
+    int c = 1;
+    while (c--)
+    {
+        for (int movimentoc = 1; movimentoc <= 2; movimentoc++)
+        {
+            printf("baixo\n");
+        }
+        printf("Esquerda\n");
+    }
+    
+    printf("\n");
 
     return 0;
 }
